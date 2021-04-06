@@ -1,0 +1,70 @@
+[
+  "container",
+  "datagrid",
+  "list",
+  "button",
+  "search",
+  {
+    "name": "Form",
+    "icon": "ri-file-edit-line",
+    "children": [
+      "form",
+      "fieldgroup",
+      "stringfield",
+      "numberfield",
+      "passwordfield",
+      "optionsfield",
+      "booleanfield",
+      "longformfield",
+      "datetimefield",
+      "attachmentfield",
+      "relationshipfield"
+    ]
+  },
+  {
+    "name": "Card",
+    "icon": "ri-archive-drawer-line",
+    "children": [
+      "stackedlist",
+      "card",
+      "cardhorizontal",
+      "cardstat"
+    ]
+  },
+  {
+    "name": "Chart",
+    "icon": "ri-bar-chart-2-line",
+    "children": [
+      "bar",
+      "line",
+      "area",
+      "pie",
+      "donut",
+      "candlestick"
+    ]
+  },
+  {
+    "name": "Elements",
+    "icon": "ri-paragraph",
+    "children": [
+      "heading",
+      "text",
+      "image",
+      "backgroundimage",
+      "link",
+      "icon",
+      "embed"
+    ]
+  },
+  {
+    "name": "Other",
+    "icon": "ri-more-2-line",
+    "children": [
+      "screenslot",
+      "navigation",
+      "login",
+      "rowdetail"
+    ]
+  }
+]
+

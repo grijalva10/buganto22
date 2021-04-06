@@ -1,0 +1,38 @@
+{
+  "name": "@budibase/deployment",
+  "email": "hi@budibase.com",
+  "version": "0.8.12",
+  "description": "Budibase Deployment Server",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Budibase/budibase.git"
+  },
+  "keywords": [
+    "budibase"
+  ],
+  "scripts": {
+    "run:docker": "node src/index.js"
+  },
+  "author": "Budibase",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@koa/router": "^8.0.0",
+    "aws-sdk": "^2.811.0",
+    "got": "^11.8.1",
+    "joi": "^17.2.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.2.0",
+    "koa-compress": "^4.0.1",
+    "koa-pino-logger": "^3.0.0",
+    "koa-send": "^5.0.0",
+    "koa-session": "^5.12.0",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^2.6.1",
+    "pino-pretty": "^4.0.0",
+    "pouchdb": "^7.2.2",
+    "pouchdb-all-dbs": "^1.0.2",
+    "server-destroy": "^1.0.1"
+  },
+  "gitHead": "1b95326b20d1352d36305910259228b96a683dc7"
+}
